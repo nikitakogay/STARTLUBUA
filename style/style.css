@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(to right top);
+}
+html {
+  background-color: #faf3e0;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin-bottom: 10px;
+  align-items: center;
+}
+.navbar {
+  padding: 5px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  align-items: center;
+  background-color: #c2b299;
+}
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  text-indent: 10px;
+}
+.navbar-logo img {
+  width: 150px;
+  height: 70px;
+}
+.navbar-link {
+  padding: 0px 30px;
+  margin-left: 0px;
+  color: #000000;
+
+  text-decoration: none;
+}
+
+.but {
+  height: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta_button {
+  padding: 5px 0px;
+  border-radius: 200px;
+  margin: 20px 50px;
+  width: 200px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  text-transform: uppercase;
+
+  background-color: #c2b299;
+  color: #000000;
+}
+
+.images {
+  width: 20%;
+}
+
+.danpir {
+  margin: 50px 0px;
+}
+.danpir_danpir {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.danpir-dan {
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+}
+.danpir-dan h3 {
+  font-size: 54px;
+}
+.danpir-dan h6 {
+  margin-left: 35%;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+.offer {
+  margin-bottom: 90px;
+  padding: 55px 4vw;
+}
+.section-title {
+  margin: 33px auto;
+  width: fit-content;
+}
+.offer-cards {
+  height: max-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.offer-card {
+  width: 320px;
+  height: max-content;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  margin: 25px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  border-color: #000000;
+  cursor: pointer;
+}
+.offer-card img {
+  align-content: center;
+  justify-content: center;
+
+  border: 0px solid #c2b299;
+  border-radius: 10px;
+  width: 300px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+.offer-card h1 {
+  font-size: 20px;
+  margin-right: auto;
+  padding: 5px 0;
+}
+.offer-card p {
+  margin-right: auto;
+  text-align: center;
+}
+.fafniri {
+  margin-bottom: 10px 0;
+}
+.fafnir {
+  padding: 5px 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #c2b299;
+}
+.fafnir-link {
+  padding: 0px 30px;
+
+  color: #000000;
+
+  text-decoration: none;
+}
