@@ -163,3 +163,153 @@ h5 {
 
   text-decoration: none;
 }
+.footer {
+  padding: 20px;
+  height: 75%;
+
+  color: #000000;
+
+  background-color: #b3dcfd;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer_left {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_logo {
+  margin-top: 10px;
+}
+
+.footer_left p {
+  padding: 10px;
+  margin: 10px;
+}
+
+.footer_right {
+  display: flex;
+}
+.footer_right img {
+  width: 40px;
+  height: 30px;
+  background-color: #67c3f3;
+}
+.footer_list {
+  padding: 0.5rem;
+  margin: 10px;
+}
+.bot {
+  padding: 10px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: #b3dcfd;
+  border: #67c3f3;
+}
+.footer_list p {
+  font-weight: 300;
+  padding: 15px 0;
+}
+
+.footer_list ul {
+  list-style: none;
+}
+
+.footer_list ul li a {
+  color: #0f0d0d;
+  display: flex;
+  padding: 0.8rem 20px;
+  padding-left: 0;
+  text-decoration: none;
+}
+
+.footer_list ul li a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  header,
+  .greeting,
+  .offer,
+  .our_vid,
+  .download,
+  .video,
+  .pricing,
+  .contact,
+  .latest-article,
+  .article-card,
+  .acts {
+    padding: 30px;
+    margin-bottom: 60px;
+  }
+  .navbar {
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+  }
+  .navbar a {
+    margin: 5px 0px;
+    padding: 15px 40px;
+    border: 1px solid #67c3f3;
+    border-radius: 55px;
+    width: 100%;
+  }
+  .navbar a:first-child {
+    border: none;
+  }
+  .greeting {
+    flex-direction: column;
+  }
+  .greeting_image {
+    max-width: 100%;
+  }
+  .offer,
+  .download {
+    flex-direction: column-reverse;
+  }
+  .offer img,
+  .download_img {
+    margin-right: 100px;
+    width: 300%;
+  }
+  .video_content iframe {
+    min-width: 300px;
+    min-height: 280px;
+  }
+  .contact_form {
+    padding: 20px 20px;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .input_group button[type="sumbit"] img {
+    margin-left: 10px;
+  }
+  .input_group button[type="sumbit"]:hover {
+    color: #d16ba5;
+    background-color: #fff;
+  }
+}
+@media screen and (max-width: 576px) {
+  .offer_card,
+  .article_card,
+  .footer_left,
+  .article-card,
+  .acts {
+    width: 300px;
+  }
+  .article_card img {
+    max-width: 100%;
+  }
+  .footer_right {
+    flex-direction: column;
+  }
+  .footer_left {
+    flex-direction: column;
+  }
+}
